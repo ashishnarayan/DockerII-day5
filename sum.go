@@ -14,5 +14,6 @@ func gaussSum(n int) int {
 }
 
 func sum(n int) int {
+	fmt.Printf("Doing sum for %d", n)
 	return gaussSum(n)
 }
