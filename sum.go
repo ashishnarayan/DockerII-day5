@@ -4,14 +4,14 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	fmt.Printf("sum(100) = %d\n", sum(100))
 }
 
 func gaussSum(n int) int {
-	return (n*(n+1))/2
+	return (n * (n + 1)) / 2
 }
 
 func sum(n int) int {
-	return 0
+	return gaussSum(n)
 }
