@@ -9,6 +9,7 @@ func main() {
 }
 
 func gaussSum(n int) int {
+	fmt.Printf("Doing gaussSum for %d", n)
 	return (n * (n + 1)) / 2
 }
 
